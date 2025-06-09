@@ -15,3 +15,5 @@ delta_psi = -0.000319*sind(Omega) - 0.000024*sind(2*L);
 GAST_h = GMST_h + delta_psi*cosd(eps);   % unit:hr
 A_mod = mod(GAST_h,24);
 GAST_s = A_mod*86400/24;   % unit:sec
+
+end
