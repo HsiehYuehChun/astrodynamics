@@ -10,7 +10,7 @@ function Rdot = F_expon(t,R,jd0)
 %   Rdot - Time derivative of state vector
 
 % Constants
-mu = 398600;                % km^3/s^2, Earth gravitational parameter
+mu = 398600.4418;           % km^3/s^2, Earth gravitational parameter
 Re = 6378.137;              % km, Earth equatorial radius
 Cd = 2.2;                   % Drag coefficient
 A_m = 4.468e-9;             % Area-to-mass ratio in m^2/kg
